@@ -1,4 +1,4 @@
-FROM 0x01be/alpine:edge as builder
+FROM alpine
 
 RUN apk add --no-cache --virtual pcbmode-build-dependencies \
     git \
